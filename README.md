@@ -4,12 +4,6 @@ It is a single page app that displays random colors when you tap on the screen.
 
 ## Getting Started 🚀
 
-This project contains 3 flavors:
-
-- development
-- staging
-- production
-
 To run the app use the following command:
 
 ```sh
@@ -42,7 +36,7 @@ $ open coverage/index.html
 
 ## Screenshots
 
-<img src='assets/screenshot.png' width='300'>
+![App Screenshot](https://bit.ly/3DMtfzL)
 
 ## Feedback
 
