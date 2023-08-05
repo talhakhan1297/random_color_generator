@@ -12,7 +12,7 @@ This project contains 3 flavors:
 
 To run the app use the following command:
 
-```
+```sh
 $ flutter run
 ```
 
@@ -39,3 +39,11 @@ $ open coverage/index.html
 ```
 
 ---
+
+## Screenshots
+
+<img src='assets/screenshot.png' width='300'>
+
+## Feedback
+
+If you have any feedback, please reach out to me at talhakhan1297@yahoo.com
