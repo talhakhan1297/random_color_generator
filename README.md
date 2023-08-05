@@ -1,12 +1,41 @@
-# flutter_project_template
-📖 Template for flutter projects using solid_lints, CI for tests and analysis.
+# Random Color Generator
 
-- Uses latest stable flutter
-- Repo name as your project name
-- Organization from your profile email address or default
+It is a single page app that displays random colors when you tap on the screen.
 
-# Usage
-1. Press "Use this template" on the menu.
-2. Fill Github form with your new repo name and press "Create repository from template"
-3. Wait for it to be created and set up action is complete. In a couple of minutes, you'll see the flutter project created in your repo once Github Actions are complete.
-4. Clone and code.
+## Getting Started 🚀
+
+This project contains 3 flavors:
+
+- development
+- staging
+- production
+
+To run the app use the following command:
+
+```
+$ flutter run
+```
+
+_\*Random Color Generator works on iOS, Android, Web, and MacOS._
+
+---
+
+## Running Tests 🧪
+
+To run all unit and widget tests use the following command:
+
+```sh
+$ flutter test --coverage
+```
+
+To view the generated coverage report you can use [lcov](https://github.com/linux-test-project/lcov).
+
+```sh
+# Generate Coverage Report
+$ genhtml coverage/lcov.info -o coverage/
+
+# Open Coverage Report
+$ open coverage/index.html
+```
+
+---
