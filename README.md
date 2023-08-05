@@ -36,7 +36,9 @@ $ open coverage/index.html
 
 ## Screenshots
 
-![App Screenshot](https://bit.ly/3DMtfzL)
+<img src='https://bit.ly/3DMtfzL' width='300'>
+
+---
 
 ## Feedback
 
