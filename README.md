@@ -34,6 +34,12 @@ $ open coverage/index.html
 
 ---
 
+## Documentation
+
+[Documentation](https://talhakhan1297.github.io/random_color_generator_docs/)
+
+---
+
 ## Screenshots
 
 <img src='https://bit.ly/3DMtfzL' width='300'>
