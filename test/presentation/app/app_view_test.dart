@@ -7,9 +7,9 @@ import '../../helpers/helpers.dart';
 void main() {
   group('AppView', () {
     testWidgets('renders AppView', (tester) async {
-      await tester.pumpApp(
-        const AppView(),
-      );
+      await tester.pumpApp(const AppView());
+
+      expect(find.byType(AppView), findsOneWidget);
       expect(find.byType(RandomColorsView), findsOneWidget);
     });
   });

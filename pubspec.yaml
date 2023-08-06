@@ -16,6 +16,8 @@ dev_dependencies:
   bloc_test: ^9.1.4
   flutter_test:
     sdk: flutter
+  integration_test:
+    sdk: flutter
   mocktail: ^1.0.0
   solid_lints: ^0.0.18
 

@@ -24,6 +24,8 @@ void main() {
     group('renders', () {
       testWidgets('RandomColorsBuilder', (tester) async {
         await tester.pumpApp(const RandomColorsView());
+
+        expect(find.byType(RandomColorsBuilder), findsOneWidget);
       });
     });
   });
