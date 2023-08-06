@@ -19,13 +19,14 @@ class RandomColorGenerator implements ColorGenerator {
   /// Generates a random [Color] when you call this function.
   @override
   Color generateColor() {
-    final red = _generateRandomEightBit();
-    final green = _generateRandomEightBit();
-    final blue = _generateRandomEightBit();
+    final red = generateRandomEightBit();
+    final green = generateRandomEightBit();
+    final blue = generateRandomEightBit();
 
     return Color.fromRGBO(red, green, blue, opacity);
   }
 
   /// Generates a random 8-bit integer.
-  int _generateRandomEightBit() => _random.nextInt(eightBitMaxValue);
+  @visibleForTesting
+  int generateRandomEightBit() => _random.nextInt(eightBitMaxValue);
 }

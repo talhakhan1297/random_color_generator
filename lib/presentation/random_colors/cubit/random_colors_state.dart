@@ -18,10 +18,12 @@ class RandomColorChanged extends RandomColorsState with EquatableMixin {
   /// Color that is changed.
   final Color color;
 
-  static const _luminanceThreshold = 0.5;
+  /// Luminance Threshold which helps selecting contrast color.
+  @visibleForTesting
+  static const luminanceThreshold = 0.5;
 
   /// Generates the contrast color based on the luminance of the given [color].
-  Color get getContrastColor => color.computeLuminance() > _luminanceThreshold
+  Color get getContrastColor => color.computeLuminance() > luminanceThreshold
       ? Colors.black
       : Colors.white;
 

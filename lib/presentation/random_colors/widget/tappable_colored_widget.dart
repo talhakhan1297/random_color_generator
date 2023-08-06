@@ -11,9 +11,9 @@ class TappableColoredWidget extends StatelessWidget {
   /// The [textColor] is an optional parameter and if not provided
   /// the [defaultTextColor] will be used.
   const TappableColoredWidget({
-    required this.onTap,
     Color? backgroundColor,
     Color? textColor,
+    this.onTap,
     super.key,
   })  : backgroundColor =
             backgroundColor ?? TappableColoredWidget.defaultBackgroundColor,
@@ -34,7 +34,7 @@ class TappableColoredWidget extends StatelessWidget {
   final Color textColor;
 
   /// The callback to be called when the widget is tapped.
-  final VoidCallback onTap;
+  final VoidCallback? onTap;
 
   @override
   Widget build(BuildContext context) {

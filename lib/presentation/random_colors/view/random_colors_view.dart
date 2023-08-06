@@ -24,7 +24,6 @@ class RandomColorsBuilder extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocBuilder<RandomColorsCubit, RandomColorsState>(
-      buildWhen: (previous, current) => previous != current,
       builder: (context, state) {
         final color = state is RandomColorChanged ? state.color : null;
         final textColor =
